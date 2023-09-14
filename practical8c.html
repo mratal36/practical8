@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-3</title>
+</head>
+<body style="background-color: beige;">
+    <form action="">
+        <legend align="right" style="text-decoration: underline; color:brown">Student Registration Form</legend>
+        <table cellspacing="10px">
+            <tr>
+                <td><label for="fName">First Name:</label></td>
+                <td colspan="5"><input  id="fName" type="text" placeholder="Enter your first name" size="180px"></td>
+            </tr>
+
+            <tr>
+                <td><label for="LName">Last Name:</label></td>
+                <td colspan="5"><input type="text" id="Lname" placeholder="Enter your last name" size="180px"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Email">Email:</label></td>
+                <td colspan="5" ><input type="email" id="Email" placeholder="itshould contain @" size="180px"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Mobile">Mobile:</label></td>
+                <td colspan="5" ><input id="Mobile" type="number" placeholder="only 10 digits are allowed" maxlength="10"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Gender">Gender:</label></td>
+                <td colspan="5" ><input id="Gender" type="radio" size="180px" name="gender">Male <input id="Mobile" type="radio"  name="gender">Female</td>
+            </tr>
+
+            <tr>
+                <td><label for="Dob">Date Of Birth:</label></td>
+                <td colspan="5" ><input id="Dob" type="date" size="180px" placeholder="mm/dd/yyyy"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Address">Address:</label></td>
+                <td> <textarea name="address" id="Address" cols="170" rows="10" ></textarea></td>
+               
+            </tr>
+
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td colspan="5" ><input id="city" type="text" size="180px"></td>
+            </tr>
+
+            
+            <tr>
+                <td><label for="pin">Area Pin:</label></td>
+                <td colspan="5" ><input id="pin" type="number" max="6" size="180px"></td>
+            </tr>
+
+            
+            <tr>
+                <td><label for="Qualification">Qualification:</label></td>
+                <td><select name="Qualification" id="Qualification">
+                    <option value="select">Select Qualification</option>
+                    <option value="HSC">HSC</option>
+                </select></td>
+
+                
+            </tr>
+            <tr>
+                <td><label for="special">Specialization:</label></td>
+                <td colspan="5" >
+                    <input id="special" type="checkbox" size="180px">Computer Science <br>
+                    <input id="special" type="checkbox" size="180px">Information Technology <br>
+                    <input id="special" type="checkbox" size="180px">Computer Archietecture <br>
+                    <input id="special" type="checkbox" size="180px">Tele Communication
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="pass">Password:</label>
+                </td>
+                <td>
+
+                    <input type="password" id="pass" size="180px">
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Registered" style="background-color: green; color:white"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
